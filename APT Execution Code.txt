@@ -1,0 +1,10 @@
+APT Execution Code
+
+cd C:\Users\admin\OneDrive\Documents\NIDS\NIDS\APT_Detection
+python -m venv venv
+.\venv\Scripts\activate
+pip install --upgrade pip
+pip install -r requirements.txt
+pip install tensorflow==2.13.0
+python application.py
+
